@@ -1,0 +1,2 @@
+# JenkinsAndroidDemo
+此工程用来学习Jenkins的构建
