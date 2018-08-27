@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // TODO: 2018/8/26 jenkins上会不会有代码提交记录
         Toast.makeText(this, "9999", Toast.LENGTH_SHORT).show();
-                
+        // TODO: 2018/8/27 提交记录加个todo  
     }
 }
