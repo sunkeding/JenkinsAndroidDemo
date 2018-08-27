@@ -2,6 +2,7 @@ package study.sunkeding.com.jenkinsandroiddemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // TODO: 2018/8/26 jenkins上会不会有代码提交记录
         Toast.makeText(this, "9999", Toast.LENGTH_SHORT).show();
-        // TODO: 2018/8/27 提交记录加个todo  
+        // TODO: 2018/8/27 提交记录加个todo
+
+        Log.d("MainActivity", "999");
     }
 }
