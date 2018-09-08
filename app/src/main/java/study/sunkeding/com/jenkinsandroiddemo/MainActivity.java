@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "9999", Toast.LENGTH_SHORT).show();
         // TODO: 2018/8/27 提交记录加个todo
 
-        Log.d("MainActivity", "999");
+        Log.d("MainActivity", "999"+1/0);
     }
 }
