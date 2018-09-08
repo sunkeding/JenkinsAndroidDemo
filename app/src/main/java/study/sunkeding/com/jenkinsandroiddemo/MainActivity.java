@@ -1,9 +1,12 @@
 package study.sunkeding.com.jenkinsandroiddemo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "9999", Toast.LENGTH_SHORT).show();
         // TODO: 2018/8/27 提交记录加个todo
 
-        Log.d("MainActivity", "999"+1/0);
+        TextView textView=null;
+        textView.setText("dsa");
     }
 }
