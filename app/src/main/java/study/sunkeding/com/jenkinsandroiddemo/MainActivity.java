@@ -8,6 +8,8 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView=null;
         textView.setText("dsa");
+        String substring = "9999".substring(0, 10);
     }
 }
